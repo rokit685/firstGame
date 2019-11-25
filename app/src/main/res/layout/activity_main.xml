@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/puntajeLabel"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#52C494"
+        android:gravity="center_vertical"
+        android:paddingLeft="10dp"
+        android:text="Puntaje : 300"
+        android:textColor="#242121"
+        android:textSize="18sp" />
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#52C494">
+
+        <TextView
+            android:id="@+id/inicioLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="130dp"
+            android:text="Iniciar"
+            android:textSize="30sp"></TextView>
+
+        <ImageView
+            android:id="@+id/carrito"
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/carrito" />
+
+        <ImageView
+            android:id="@+id/perro"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:src="@drawable/perro" />
+
+        <ImageView
+            android:id="@+id/adulto"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@drawable/adulto" />
+
+        <ImageView
+            android:id="@+id/nino"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:src="@drawable/nino" />
+
+
+    </FrameLayout>
+
+</LinearLayout>
